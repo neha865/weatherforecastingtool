@@ -3,7 +3,7 @@ import requests
 import json
 # base URL
 CITY = input("enter your City?")
-API_KEY = "326adc4e33990675f692de82b399ace2"
+API_KEY = "Your API key"
 # updating the URL
 URL = f'https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}'
 # HTTP request
